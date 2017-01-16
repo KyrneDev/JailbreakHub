@@ -10,7 +10,7 @@ body{
 .header{						
 	width:100%;
 	height:200px;
-	background-color:#BBBBBB;
+	background-color: white;
 
 }
 .header_banner_placeholder
@@ -56,11 +56,12 @@ body{
 .header_li
 {
 	width:150px;
-	margin:0 20 0 20;
-	height:50px;
+	height:auto;
 	display:inline-block;
-	background-color:red;
-
+	background-color: white;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 25px;
 }
 .mainwrapper
 {
