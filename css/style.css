@@ -59,10 +59,24 @@ body{
 	width:150px;
 	height:auto;
 	display:inline-block;
+	color: #EEA200;
 	background-color: white;
 	font-family: 'Roboto';
 	font-weight: 500;
 	font-size: 25px;
+	transition: 0.4s;
+  	padding-top: 0px;
+  	padding-bottom:0px;
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+}
+.header_li:hover {
+	background-color: #EEA200;
+  	color: white;
+ 	margin-top: 0px;
+  	margin-bottom: 0px;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
 }
 .mainwrapper
 {
