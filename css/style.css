@@ -70,7 +70,7 @@ body{
 }
 .mainposts
 {
-	margin:auto;
+	float:right;
 	height:730px;
 	margin:10px;
 	width:1530px;
@@ -87,6 +87,6 @@ body{
 	width:1100px;
 	height:250px;
 	background-color:#FE98F3;
-	margin:auto;
+	margin:25px;
 	border-radius:10px;
 }
