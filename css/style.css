@@ -13,11 +13,17 @@ body{
 	background-color:#BBBBBB;
 
 }
-.header_banner
+.header_banner_placeholder
 {
 	width:100%;
 	height:130px;
 	background-color:BAFF6B;
+}
+#header_banner 
+{
+	height: 130px;
+	margin-left: 50%;
+	margin-right: 50%;
 }
 .header_placeholder
 {
