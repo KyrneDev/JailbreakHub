@@ -1,0 +1,42 @@
+body{							 /*Sets the background for the entirety of the website*/
+	background-color: #83f390;
+}
+.header{						/*For the header and navigation bar background.  Sets background and aligns in center*/
+	margin-left: 7%;
+	background-color: #def2f3;
+	background-position: center;
+	width: 85%;
+	border-radius: 20px;
+}
+a:hover{						 /*Highlights the links in the navigation bar while hovering over them*/
+	background-color: #555;
+	padding: 2px;
+}
+.navigation{					 /*Centers the navigation bar with the center of the page.  Not optimized for other resolutions other than my own, so expect errors on different sized screens*/
+	margin-left: 27%;
+}	
+h1{								 /*Sets font, size, and alignment of header*/
+	margin-left: 1%;
+	font-size: 48px;
+	font-family: Rockwell;
+}
+a{                               /*For links*/
+	text-decoration: none;
+	font-family: Calibri;
+	font-size: 24px;
+	margin-left: 7%;
+	text-align: auto;
+	color: black;
+}
+.content{                          /*For all content within the body (Below the header, before the footer.  Not actual background color)*/
+	background-color: #def2f3;
+	margin-left: 7%;
+	width: 85%;
+	border-radius: 3px;
+}
+#text1{							 /*Aligns the body text to the center.*/
+	text-align: center;
+}
+#image{							 /*Rounds corners on JSProfilePic.PNG image*/
+	border-radius: 6px;
+}
