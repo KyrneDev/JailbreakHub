@@ -19,12 +19,33 @@ body{
 	height:130px;
 	background-color:BAFF6B;
 }
+.header_placeholder
+{
+	height: 200px;
+	width:100%;
+	margin-top: -100px;
+	text-align: center;
+}
+.header_logo
+{
+	display:inline-block;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .header_ul
 {
-	position:relative;
-	padding:10px;
+	padding-top:10px;
 	height:50px;
-
+	margin-top: -100px;
+}
+#center_positioning_left
+{
+	margin-right:90px;
+}
+#center_positioning_right
+{
+	margin-left:90px;
 }
 .header_li
 {
