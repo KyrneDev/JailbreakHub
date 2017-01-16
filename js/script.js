@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$('img').effect("bounce", "slow");
+	$('.header_logo').effect("bounce", "slow");
 });
