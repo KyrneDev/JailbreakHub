@@ -70,7 +70,7 @@ body{
 }
 .mainposts
 {
-	float:left;
+	margin:auto;
 	height:730px;
 	margin:10px;
 	width:1530px;
