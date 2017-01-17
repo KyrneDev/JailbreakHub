@@ -2202,11 +2202,11 @@
 }
 
 .primary-color {
-  background-color: #57C5E0 !important;
+  background-color: #4285F4 !important;
 }
 
 .primary-color-dark {
-  background-color: #57C5E0 !important;
+  background-color: #263238 !important;
 }
 
 .secondary-color {
@@ -2643,7 +2643,7 @@
 }
 
 a {
-  color: #57C5E0;
+  color: #e53935;
   text-decoration: none;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -2764,7 +2764,7 @@ img {
 }
 
 .pager.pg-blue li a:hover {
-  background-color: #4285F4;
+  background-color: #d32f2f;
   color: #fff;
 }
 
@@ -6901,27 +6901,27 @@ button:focus {
 }
 
 .btn-primary {
-  background: #57C5E0;
+  background: #e53935;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #04C0BD !important;
+  background-color: #d32f2f !important;
 }
 
 .btn-primary.active {
-  background-color: #0b51c5 !important;
+  background-color: #c62828 !important;
 }
 
 .btn-default {
-  background: #2BBBAD;
+  background: #e53935;
 }
 
 .btn-default:hover, .btn-default:focus {
-  background-color: #30cfc0 !important;
+  background-color: #d32f2f !important;
 }
 
 .btn-default.active {
-  background-color: #186860 !important;
+  background-color: #c62828 !important;
 }
 
 .btn-success {
@@ -7822,7 +7822,7 @@ i.btn-danger {
 }
 
 .card .card-title a:hover {
-  color: #616161;
+  color: #d32f2f;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -7939,7 +7939,12 @@ i.btn-danger {
   color: #fff;
   transition: .35s;
 }
-
+a:hover.sidebar-123 {
+	color: #b71c1c !important;
+}
+.sidebar-123a:hover {
+	color: #EEEEEE !important;
+}
 .navbar.navbar-dark .breadcrumb a:hover,
 .navbar.navbar-dark .navbar-nav .nav-item a:hover {
   transition: .35s;
@@ -7963,6 +7968,11 @@ i.btn-danger {
 
 .navbar.navbar-dark .nav-link {
   color: #fff;
+}
+
+.lihover:hover {
+	color: #BDBDBD !important;
+	transition: .35s !important;
 }
 
 .navbar.navbar-light .breadcrumb a,

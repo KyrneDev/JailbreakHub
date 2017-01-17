@@ -332,7 +332,7 @@ blockquote {
 }
 
 a {
-    color: #0275d8;
+    color: #e53935;
     text-decoration: none
 }
 
@@ -4477,8 +4477,11 @@ tbody.collapse.in {
     z-index: 2;
     color: #fff;
     cursor: default;
-    background-color: #04C0BD;
-    border-color: #04C0BD
+    background-color: #e53935;
+    border-color: #e53935
+}
+.page-item.active:hover {
+	color: d32f2f !important;
 }
 
 .page-item.disabled .page-link,.page-item.disabled .page-link:focus,.page-item.disabled .page-link:hover {
@@ -4494,14 +4497,14 @@ tbody.collapse.in {
     float: left;
     padding: .5rem .75rem;
     margin-left: -1px;
-    color: ##57C5E0;
+    color: #e53935;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #ddd
 }
 
 .page-link:focus,.page-link:hover {
-    color: #014c8c;
+    color: #d32f2f;
     background-color: #eceeef;
     border-color: #ddd
 }
@@ -5033,8 +5036,8 @@ a.tag:focus,a.tag:hover {
     z-index: 2;
     color: #fff;
     text-decoration: none;
-    background-color: #57C5E0;
-    border-color: #57C5E0
+    background-color: #d32f2f;
+    border-color: #d32f2f
 }
 
 .list-group-item.active .list-group-item-heading,.list-group-item.active .list-group-item-heading>.small,.list-group-item.active .list-group-item-heading>small,.list-group-item.active:focus .list-group-item-heading,.list-group-item.active:focus .list-group-item-heading>.small,.list-group-item.active:focus .list-group-item-heading>small,.list-group-item.active:hover .list-group-item-heading,.list-group-item.active:hover .list-group-item-heading>.small,.list-group-item.active:hover .list-group-item-heading>small {
