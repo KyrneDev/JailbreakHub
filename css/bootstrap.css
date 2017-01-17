@@ -4477,8 +4477,8 @@ tbody.collapse.in {
     z-index: 2;
     color: #fff;
     cursor: default;
-    background-color: #0275d8;
-    border-color: #0275d8
+    background-color: #04C0BD;
+    border-color: #04C0BD
 }
 
 .page-item.disabled .page-link,.page-item.disabled .page-link:focus,.page-item.disabled .page-link:hover {
@@ -4494,7 +4494,7 @@ tbody.collapse.in {
     float: left;
     padding: .5rem .75rem;
     margin-left: -1px;
-    color: #0275d8;
+    color: ##57C5E0;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #ddd
