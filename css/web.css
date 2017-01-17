@@ -2202,7 +2202,7 @@
 }
 
 .primary-color {
-  background-color: #4285F4 !important;
+  background-color: #57C5E0 !important;
 }
 
 .primary-color-dark {
@@ -2643,7 +2643,7 @@
 }
 
 a {
-  color: #e53935;
+  color: #57C5E0;
   text-decoration: none;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -2764,7 +2764,7 @@ img {
 }
 
 .pager.pg-blue li a:hover {
-  background-color: #d32f2f;
+  background-color: #4285F4;
   color: #fff;
 }
 
@@ -6901,27 +6901,27 @@ button:focus {
 }
 
 .btn-primary {
-  background: #e53935;
+  background: #57C5E0;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #d32f2f !important;
+  background-color: #04C0BD !important;
 }
 
 .btn-primary.active {
-  background-color: #c62828 !important;
+  background-color: #0b51c5 !important;
 }
 
 .btn-default {
-  background: #e53935;
+  background: #2BBBAD;
 }
 
 .btn-default:hover, .btn-default:focus {
-  background-color: #d32f2f !important;
+  background-color: #30cfc0 !important;
 }
 
 .btn-default.active {
-  background-color: #c62828 !important;
+  background-color: #186860 !important;
 }
 
 .btn-success {
@@ -7285,7 +7285,7 @@ button:focus {
 }
 
 .btn-blue-grey.active {
-  background-color: #36474f !important;
+  background-color: #57C5E0 !important;
 }
 
 .btn-mdb {
@@ -7297,7 +7297,7 @@ button:focus {
 }
 
 .btn-mdb.active {
-  background-color: #1e232f !important;
+  background-color: #57C5E0 !important;
 }
 
 input[type=text],
@@ -7577,8 +7577,12 @@ label {
 
 .form-control:focus {
   background: transparent;
+  border-bottom-color: #57C5E0 !important;
+  color: #57C5E0 !important;
 }
-
+.form-control::-webkit-input-placeholder{
+	color: #57C5E0 !important;
+}
 .form-control:disabled,
 .form-control[readonly] {
   background-color: transparent;
@@ -7629,7 +7633,7 @@ label {
 }
 
 .md-form .prefix.active {
-  color: #4285F4;
+  color: #57C5E0;
 }
 
 .md-form .prefix ~ input,
@@ -7777,7 +7781,7 @@ textarea.md-textarea {
 }
 
 .input-light-bg .form-control {
-  color: #1C2331;
+  color: #57C5E0;
 }
 
 .form-inline .form-group {
@@ -7822,7 +7826,7 @@ i.btn-danger {
 }
 
 .card .card-title a:hover {
-  color: #d32f2f;
+  color: #616161;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -7939,12 +7943,7 @@ i.btn-danger {
   color: #fff;
   transition: .35s;
 }
-a:hover.sidebar-123 {
-	color: #b71c1c !important;
-}
-.sidebar-123a:hover {
-	color: #EEEEEE !important;
-}
+
 .navbar.navbar-dark .breadcrumb a:hover,
 .navbar.navbar-dark .navbar-nav .nav-item a:hover {
   transition: .35s;
@@ -7968,11 +7967,6 @@ a:hover.sidebar-123 {
 
 .navbar.navbar-dark .nav-link {
   color: #fff;
-}
-
-.lihover:hover {
-	color: #BDBDBD !important;
-	transition: .35s !important;
 }
 
 .navbar.navbar-light .breadcrumb a,
@@ -8093,11 +8087,11 @@ a:hover.sidebar-123 {
 }
 
 .navbar-light form input[type=text] {
-  border-bottom: 1px solid #1C2331;
+  border-bottom: 1px solid #57C5E0;
 }
 
 .navbar-light form .form-control {
-  color: #1C2331;
+  color: #57C5E0;
 }
 
 /* MDB HOVER EFFECTS */
