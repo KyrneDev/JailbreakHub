@@ -1608,6 +1608,14 @@
 .amber-text.text-darken-3 {
   color: #ff8f00 !important;
 }
+.Written:hover {
+	color: #04C0BD !important;
+	transition: .35s;
+}
+.Writtena:hover {
+	color: #EEEEEE !important;
+	transition: .35s;
+}
 
 .amber.darken-4 {
   background-color: #ff6f00 !important;
@@ -2202,11 +2210,11 @@
 }
 
 .primary-color {
-  background-color: #4285F4 !important;
+  background-color: #57C5E0 !important;
 }
 
 .primary-color-dark {
-  background-color: #0d47a1 !important;
+  background-color: #263238 !important;
 }
 
 .secondary-color {
@@ -2643,7 +2651,7 @@
 }
 
 a {
-  color: #0275d8;
+  color: #57C5E0;
   text-decoration: none;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -2711,6 +2719,14 @@ img {
 
 .pagination .page-link:hover {
   transition: all 0.3s linear;
+}
+.page-link:hover {
+	transition: .35s !important;
+	color: #04C0BD;
+}
+.lihover:hover {
+	transition: .35s !important;
+	color: #BDBDBD !important;
 }
 
 .pagination .page-link:focus {
@@ -6901,11 +6917,11 @@ button:focus {
 }
 
 .btn-primary {
-  background: #4285F4;
+  background: #57C5E0;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #5a95f5 !important;
+  background-color: #04C0BD !important;
 }
 
 .btn-primary.active {
@@ -7285,7 +7301,7 @@ button:focus {
 }
 
 .btn-blue-grey.active {
-  background-color: #36474f !important;
+  background-color: #57C5E0 !important;
 }
 
 .btn-mdb {
@@ -7297,7 +7313,7 @@ button:focus {
 }
 
 .btn-mdb.active {
-  background-color: #1e232f !important;
+  background-color: #57C5E0 !important;
 }
 
 input[type=text],
@@ -7577,6 +7593,12 @@ label {
 
 .form-control:focus {
   background: transparent;
+  border-bottom-color: #57C5E0 !important;
+  color: #fff !important;
+}
+.form-control:focus::-webkit-input-placeholder {
+    color: #57C5E0;
+	transition: .35s;
 }
 
 .form-control:disabled,
@@ -7629,7 +7651,7 @@ label {
 }
 
 .md-form .prefix.active {
-  color: #4285F4;
+  color: #57C5E0;
 }
 
 .md-form .prefix ~ input,
@@ -7777,7 +7799,7 @@ textarea.md-textarea {
 }
 
 .input-light-bg .form-control {
-  color: #1C2331;
+  color: #757575;
 }
 
 .form-inline .form-group {
@@ -8083,11 +8105,11 @@ i.btn-danger {
 }
 
 .navbar-light form input[type=text] {
-  border-bottom: 1px solid #1C2331;
+  border-bottom: 1px solid #57C5E0;
 }
 
 .navbar-light form .form-control {
-  color: #1C2331;
+  color: #757575;
 }
 
 /* MDB HOVER EFFECTS */
