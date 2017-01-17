@@ -5033,8 +5033,8 @@ a.tag:focus,a.tag:hover {
     z-index: 2;
     color: #fff;
     text-decoration: none;
-    background-color: #0275d8;
-    border-color: #0275d8
+    background-color: #57C5E0;
+    border-color: #57C5E0
 }
 
 .list-group-item.active .list-group-item-heading,.list-group-item.active .list-group-item-heading>.small,.list-group-item.active .list-group-item-heading>small,.list-group-item.active:focus .list-group-item-heading,.list-group-item.active:focus .list-group-item-heading>.small,.list-group-item.active:focus .list-group-item-heading>small,.list-group-item.active:hover .list-group-item-heading,.list-group-item.active:hover .list-group-item-heading>.small,.list-group-item.active:hover .list-group-item-heading>small {

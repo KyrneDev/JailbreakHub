@@ -2202,11 +2202,11 @@
 }
 
 .primary-color {
-  background-color: #4285F4 !important;
+  background-color: #57C5E0 !important;
 }
 
 .primary-color-dark {
-  background-color: #0d47a1 !important;
+  background-color: #57C5E0 !important;
 }
 
 .secondary-color {
@@ -6901,11 +6901,11 @@ button:focus {
 }
 
 .btn-primary {
-  background: #4285F4;
+  background: #57C5E0;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #5a95f5 !important;
+  background-color: #04C0BD !important;
 }
 
 .btn-primary.active {
