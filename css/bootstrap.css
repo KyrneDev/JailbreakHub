@@ -6487,6 +6487,10 @@ a.text-info:focus,a.text-info:hover {
     color: #f0ad4e!important
 }
 
+.container {
+    padding-left: 5% !important;
+}
+
 a.text-warning:focus,a.text-warning:hover {
     color: #ec971f!important
 }
