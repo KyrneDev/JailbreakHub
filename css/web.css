@@ -1608,6 +1608,14 @@
 .amber-text.text-darken-3 {
   color: #ff8f00 !important;
 }
+.Written:hover {
+	color: #04C0BD !important;
+	transition: .35s;
+}
+.Writtena:hover {
+	color: #EEEEEE !important;
+	transition: .35s;
+}
 
 .amber.darken-4 {
   background-color: #ff6f00 !important;
@@ -2711,6 +2719,14 @@ img {
 
 .pagination .page-link:hover {
   transition: all 0.3s linear;
+}
+.page-link:hover {
+	transition: .35s !important;
+	color: #04C0BD;
+}
+.lihover:hover {
+	transition: .35s !important;
+	color: #BDBDBD !important;
 }
 
 .pagination .page-link:focus {
@@ -7578,11 +7594,13 @@ label {
 .form-control:focus {
   background: transparent;
   border-bottom-color: #57C5E0 !important;
-  color: #57C5E0 !important;
+  color: #fff !important;
 }
-.form-control::-webkit-input-placeholder{
-	color: #57C5E0 !important;
+.form-control:focus::-webkit-input-placeholder {
+    color: #57C5E0;
+	transition: .35s;
 }
+
 .form-control:disabled,
 .form-control[readonly] {
   background-color: transparent;
@@ -7781,7 +7799,7 @@ textarea.md-textarea {
 }
 
 .input-light-bg .form-control {
-  color: #57C5E0;
+  color: #757575;
 }
 
 .form-inline .form-group {
@@ -8091,7 +8109,7 @@ i.btn-danger {
 }
 
 .navbar-light form .form-control {
-  color: #57C5E0;
+  color: #757575;
 }
 
 /* MDB HOVER EFFECTS */
