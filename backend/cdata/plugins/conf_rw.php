@@ -1,0 +1,20 @@
+<?php
+$conf_rw_htaccess = "/var/www/cutenewsNew/.htaccess";
+$conf_rw_readmore = "/news/view/%id/%title";
+$conf_rw_readmore_layout = "/example2.php?subaction=showfull";
+$conf_rw_archread = "/news/archive/%archive";
+$conf_rw_archread_layout = "/example2.php?subaction=list-archive";
+$conf_rw_readcomm = "/news/read/%id/%title/comment";
+$conf_rw_readcomm_layout = "/example2.php?subaction=showcomments";
+$conf_rw_newspage = "/news/read/%start_from";
+$conf_rw_newspage_layout = "/example2.php";
+$conf_rw_commpage = "/news/read/%id/%title/comment/%comm_start_from";
+$conf_rw_commpage_layout = "/example2.php?subaction=showcomments";
+$conf_rw_archreadmore = "/news/archive/%archive/%id/%title";
+$conf_rw_archreadmore_layout = "/example2.php?subaction=showfull";
+$conf_rw_archreadcomm = "/news/archive/%archive/%id/%title/comment";
+$conf_rw_archreadcomm_layout = "/example2.php?subaction=showcomments";
+$conf_rw_archpage = "/news/archive/%archive/%start_from";
+$conf_rw_archpage_layout = "/example2.php?subaction=list-archive";
+$conf_rw_archcommpage = "/news/archive/%archive/%id/%title/comment/%comm_start_from";
+$conf_rw_archcommpage_layout = "/example2.php?subaction=showcomments";
