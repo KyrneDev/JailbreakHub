@@ -5,7 +5,7 @@
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- old id - pub-9055328584118189 -->
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-4040829381097932", 
+            google_ad_client: "pub-4040829381097932", 
             enable_page_level_ads: true
         });
     </script>
