@@ -197,7 +197,7 @@ if ($_enable_pagination)
             $url = cn_url_modify('start_from');
         }
 
-        $PREV = '<a class="cn-previous-news" href="'.$url.'">\\1</a>';        
+        $PREV = '<a class="page-link" href="'.$url.'">\\1</a>';        
     }
     else
     {
@@ -225,7 +225,7 @@ if ($_enable_pagination)
             $url = cn_url_modify("start_from=$_next_num");
         }
 
-        $NEXT = '<a class="cn-next-news" href="'.$url.'">\\1</a>';
+        $NEXT = '<a class="page-link" href="'.$url.'">\\1</a>';
     }
     else 
     {
@@ -285,12 +285,12 @@ if ($_enable_pagination)
             }
             elseif ($i != $current_page) //$start_from != $_next_num
             {                
-                $links .= '<a class="cn-page-news" href="'.$url.'">'.($i+1).'</a> ';
+                $links .= '<a class="page-item" href="'.$url.'">'.($i+1).'</a> ';
                 $limit_skip = false;
             }
             else
             {
-                $links .= '<span class="cn-current-page-news">'.($i+1).'</span> ';
+                $links .= '<span class="page-item active">'.($i+1).'</span> ';
                 $limit_skip = false;
             }
         }
