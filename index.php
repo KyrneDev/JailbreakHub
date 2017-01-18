@@ -159,38 +159,14 @@
                         <h4>Recent Posts:</h4>
                         <br>
                         <div class="list-group">
-                            <a href="#" class="list-group-item Written">
+
                             <?php
                                 $static = true;
                                 $template = "Headlines";
-                                $number = "1";
+                                $number = "5";
                                 include("backend/show_news.php");
                             ?>
-                            </a>
-                            <a class="list-group-item Written">
-                                <?php
-                                $static = true;
-                                $template = "Headlines";
-                                $number = "1";
-                                include("backend/show_news.php");
-                                ?>
-                            </a>
-                            <a class="list-group-item Written">
-                                <?php
-                                $static = true;
-                                $template = "Headlines";
-                                $number = "1";
-                                include("backend/show_news.php");
-                                ?>
-                            </a>
-                            <a class="list-group-item Written">
-                                <?php
-                                $static = true;
-                                $template = "Headlines";
-                                $number = "1";
-                                include("backend/show_news.php");
-                                ?>
-                            </a>
+
                         </div>
                     </div>
                 </div>
