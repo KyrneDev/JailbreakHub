@@ -9,6 +9,11 @@
             enable_page_level_ads: true
         });
     </script>
+	<script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	(function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+	arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+	</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
