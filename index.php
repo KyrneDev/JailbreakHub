@@ -38,7 +38,6 @@
         
         .widget-wrapper {
             padding-bottom: 2rem;
-            border-bottom: 1px solid #e0e0e0;
             margin-bottom: 2rem;
 			}
 
@@ -81,14 +80,20 @@
                         <li class="nav-item">
                             <a class="nav-link" href="posts.html">Posts</a>
                         </li>
-			<li class="nav-item">
-                            <a class="nav-link" href="MTH.html">Meet the Team</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Current Jailbreak</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
+                            <a class="nav-link" href="contact.html">Socials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Downloads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Tweaks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Themes</a>
                         </li>
                     </ul>
                     <!--Search form-->
@@ -107,9 +112,160 @@
 
     <main>
 
-        <?php
-        include("path/to/show_news.php");
-        ?>
+        <!--Main layout-->
+        <div class="container">
+            <div class="row">
+
+                <!--Main column-->
+                <div class="col-lg-8">
+
+                    <!--Post-->
+                    <div class="post-wrapper">
+                        <!--Post data-->
+
+
+                        <h1 class="h1-responsive">To Do List<small class="text-muted"> Add items below</small></h1>
+                        <h5>Written by <a class="Written" href="">Bobby O'Brien</a>, 01.17.2017</h5>
+
+                        <br>
+
+                        <!--Featured image -->
+                        <div class="view overlay hm-white-light z-depth-1-half">
+                            <img src="" class="img-fluid " alt="">
+                            <div class="mask">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <!--Post excerpt-->
+                        <p>
+			1. something<br>
+			2. sum else<br>
+			3. stuff<br>
+			</p>
+
+                        <!--"Read more" button-->
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+                    <!--/.Post-->
+
+                    <hr>
+
+                    <!--Post-->
+                    <div class="post-wrapper">
+                        <!--Post data-->
+                        <h1 class="h1-responsive">Post title <small class="text-muted">Secondary text</small></h1>
+                        <h5>Written by <a class="Written" href="">John Doe</a>, 30.04.2016</h5>
+
+                        <br>
+
+                        <!--Featured image -->
+                        <div class="view overlay hm-white-light z-depth-1-half">
+                            <img src="" class="img-fluid " alt="">
+                            <div class="mask">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <!--Post excerpt-->
+                        <p>text here</p>
+
+                        <!--"Read more" button-->
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+                    <!--/.Post-->
+
+                    <hr>
+
+                    <!--Post-->
+                    <div class="post-wrapper">
+                        <!--Post data-->
+                        <h1 class="h1-responsive">Post title <small class="text-muted">Secondary text</small></h1>
+                        <h5>Written by <a class="Written" href="">John Doe</a>, 30.04.2016</h5>
+
+                        <br>
+
+                        <!--Featured image -->
+                        <div class="view overlay hm-white-light z-depth-1-half">
+                            <img src="" class="img-fluid" alt="">
+                            <div class="mask">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <!--Post excerpt-->
+                        <p>text here</p>
+
+                        <!--"Read more" button-->
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+                    <!--/.Post-->
+
+                    <hr>
+
+                    <!--Pagination-->
+                    <nav class="text-xs-center">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--/.Pagination-->
+
+                    <hr>
+
+                </div>
+
+                <!--Sidebar-->
+                <div class="col-lg-4">
+
+                    <div class="widget-wrapper">
+                        <h4>Recent Posts:</h4>
+                        <br>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/.Sidebar-->
+            </div>
+        </div>
+        <!--/.Main layout-->
+
     </main>
 
     <!--Footer-->
@@ -119,10 +275,8 @@
         <div class="container-fluid">
             <div class="row">
 <div class="col-md-3 offset-lg-1 hidden-lg-down">
-                    <h5 class="title">ABOUT MATERIAL DESIGN</h5>
-                    <p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
-
-                    <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
+                    <h5 class="title">Jailbreak Hub</h5>
+                    <p>JailbreakHub is a website for all jailbreak related content on iPhone, iPod, and iPad</p>
                 </div>
 
                 <!--First column-->
