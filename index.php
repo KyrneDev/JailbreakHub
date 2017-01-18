@@ -165,7 +165,8 @@
 
                     <!--Pagination-->
                     <nav class="text-xs-center">
-                        <ul class="pagination">
+					<div id=pages>
+                        <!--<ul class="pagination">
                             <li class="page-item disabled">
                                 <a class="page-link" href="#" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
@@ -185,7 +186,8 @@
                                     <span class="sr-only">Next</span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul>-->
+						</div>
                     </nav>
                     <!--/.Pagination-->
 
