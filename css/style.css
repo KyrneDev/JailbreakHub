@@ -54,19 +54,19 @@ body
 
 ::selection
 {
-	background: #149077;
+	background: #29b6f6;
 	color: #FFF;
 }
 
 ::-moz-selection
 {
-	background: #149077;
+	background: #29b6f6;
 	color: #FFF;
 }
 
 a
 {
-	color: #16A085;
+	color: #41bef7;
 	text-decoration: none;
 }
 
@@ -122,12 +122,12 @@ h1, h2, h3
 
 .colour1
 {
-	background: #16A085;
+	background: #41bef7;
 }
 
 .colour2
 {
-	background: #1ABC9C;
+	background: #72cff9;
 }
 
 .colour3
@@ -167,12 +167,12 @@ h1, h2, h3
 		
 		.arrow-theme:after
 		{
-			border-color: #16A085 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
+			border-color: #41bef7 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
 		}
 		
 		.arrow-themelight:after
 		{
-			border-color: #1ABC9C rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
+			border-color: #72cff9 rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
 		}
 
 		.arrow-grey:after
@@ -231,7 +231,7 @@ h1, h2, h3
 	{
 		font-size: 90px;
 		line-height: 90px;
-		color: #1abc9c;
+		color: #72cff9;
 	}
 	
 #countdown
@@ -358,7 +358,7 @@ h1, h2, h3
 			button.formbutton
 			{
 				color: #FFF;
-				background: #16A085;
+				background: #41bef7;
 				z-index: 90;
 				border: 0;
 				height: 50px;
@@ -371,7 +371,7 @@ h1, h2, h3
 			
 				button.formbutton:hover
 				{
-					background: #149077;
+					background: #29b6f6;
 				}
 			
 #quotecont
@@ -387,7 +387,7 @@ h1, h2, h3
 		#quotecont .owl-theme .owl-controls .owl-page.active span,
 		#quotecont .owl-theme .owl-controls.clickable .owl-page:hover span
 		{
-			background: #1ABC9C;
+			background: #72cff9;
 		}
 
 #footercont
@@ -416,7 +416,7 @@ h1, h2, h3
 		
 			#footercont #socialmedia ul li a:hover
 			{
-				color: #1ABC9C;
+				color: #72cff9;
 			}
 			
 	#footercont p.backtotop
@@ -441,7 +441,7 @@ h1, h2, h3
 		
 			#footercont p.backtotop a:hover
 			{
-				background-color: #1ABC9C;
+				background-color: #72cff9;
 				color: #FFF;
 				text-decoration: none;
 			}
