@@ -38,7 +38,6 @@
         
         .widget-wrapper {
             padding-bottom: 2rem;
-            border-bottom: 1px solid #e0e0e0;
             margin-bottom: 2rem;
 			}
 
@@ -81,14 +80,20 @@
                         <li class="nav-item">
                             <a class="nav-link" href="posts.html">Posts</a>
                         </li>
-			<li class="nav-item">
-                            <a class="nav-link" href="MTH.html">Meet the Team</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Current Jailbreak</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
+                            <a class="nav-link" href="contact.html">Socials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Downloads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Tweaks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Themes</a>
                         </li>
                     </ul>
                     <!--Search form-->
@@ -235,40 +240,26 @@
                 <div class="col-lg-4">
 
                     <div class="widget-wrapper">
-                        <h4>Categories:</h4>
+                        <h4>Recent Posts:</h4>
                         <br>
                         <div class="list-group">
-                            <a href="#" class="list-group-item Writtena active">Sport</a>
-                            <a href="#" class="list-group-item Written">Music</a>
-                            <a href="#" class="list-group-item Written">Travels</a>
-                            <a href="#" class="list-group-item Written">Fashion</a>
-                            <a href="#" class="list-group-item Written">Parties</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
                         </div>
                     </div>
-
-
-
-                    <div class="widget-wrapper">
-                        <h4>Subscription form:</h4>
-                        <br>
-                        <div class="card">
-                            <div class="card-block">
-                                <p><strong>Subscribe to our newsletter</strong></p>
-                                <p>Once a week we will send you a summary of the most useful news</p>
-                                <div class="md-form">
-                                    <i class="fa fa-user prefix"></i>
-                                    <input type="text" id="form1" placeholder="Your name" class="form-control">
-                                </div>
-                                <div class="md-form">
-                                    <i class="fa fa-envelope prefix"></i>
-                                    <input type="text" id="form2" placeholder="Your email" class="form-control">
-                                </div>
-                                <button class="btn btn-primary">Submit</button>
-
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
                 <!--/.Sidebar-->
             </div>
@@ -284,10 +275,8 @@
         <div class="container-fluid">
             <div class="row">
 <div class="col-md-3 offset-lg-1 hidden-lg-down">
-                    <h5 class="title">ABOUT MATERIAL DESIGN</h5>
-                    <p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
-
-                    <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
+                    <h5 class="title">Jailbreak Hub</h5>
+                    <p>JailbreakHub is a website for all jailbreak related content on iPhone, iPod, and iPad</p>
                 </div>
 
                 <!--First column-->

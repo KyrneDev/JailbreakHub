@@ -1447,9 +1447,9 @@ pre code {
     }
 
     .col-lg-4 {
-        float: left;
+        float: right;
         width: 33.333333%;
-		max-width: 500px;
+		max-width: 400px;
     }
 
     .col-lg-5 {
