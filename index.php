@@ -119,7 +119,7 @@
                 <!--Main column-->
                 <div class="col-lg-8">
                     <?php
-                    include("path/to/show_news.php");
+                    include("backend/show_news.php");
                     ?>
 
                     <!--Pagination-->
