@@ -57,9 +57,9 @@
 				</div>
 			</header>
  <div class="ip-main"> -->
-    <header>
+  
 
-<header class="ip-header">
+<!--<header class="ip-header">
 																
 								<div class="ip-loader">
 					<svg class="ip-inner" width="125px" height="125px" viewBox="00 0 80 80">
@@ -68,7 +68,7 @@
 					</svg>
 				</div>
 			</header>
- <div class="ip-main">
+ <div class="ip-main">-->
     <header>
 
         <!--Navbar-->
