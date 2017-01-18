@@ -75,25 +75,25 @@
                     <!--Links-->
                     <ul class="nav navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="posts.html">Posts</a>
+                            <a class="nav-link" href="soon">Posts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">Current Jailbreak</a>
+                            <a class="nav-link" href="soon">Current Jailbreak</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Socials</a>
+                            <a class="nav-link" href="soon">Socials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Downloads</a>
+                            <a class="nav-link" href="soon">Downloads</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Tweaks</a>
+                            <a class="nav-link" href="soon">Tweaks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Themes</a>
+                            <a class="nav-link" href="soon">Themes</a>
                         </li>
                     </ul>
                     <!--Search form-->
