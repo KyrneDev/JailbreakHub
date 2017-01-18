@@ -160,6 +160,7 @@
                 <!--Main column-->
                 <div class="col-lg-8">
                     <?php
+					$number = "5";
                     include("backend/show_news.php");
                     ?>
 
