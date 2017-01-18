@@ -7,4 +7,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 RewriteRule (.*)$ /$1/ [R=301,L]
-RewriteRule ^(.*)$ conf_rw.php?rew=$1&%{QUERY_STRING}[L]
+RewriteRule ^(.*)$ index.php?rew=$1&%{QUERY_STRING}[L]
