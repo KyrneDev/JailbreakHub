@@ -33,10 +33,10 @@
 			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("second"); } else { thisEl.find(".timeRefSeconds").text("seconds"); }
 			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {
-				days = (String(days).length >= 2) ? days : "2" + days;
-				hours = (String(hours).length >= 2) ? hours : "2" + hours;
-				minutes = (String(minutes).length >= 2) ? minutes : "49" + minutes;
-				seconds = (String(seconds).length >= 2) ? seconds : "30" + seconds;
+				days = (String(days).length >= 2) ? days : "0" + days;
+				hours = (String(hours).length >= 2) ? hours : "0" + hours;
+				minutes = (String(minutes).length >= 2) ? minutes : "0" + minutes;
+				seconds = (String(seconds).length >= 2) ? seconds : "0" + seconds;
 			}
 			//update the countdown's html values.
 			if(!isNaN(eventDate)) {
