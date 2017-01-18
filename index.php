@@ -110,12 +110,79 @@
 
     </header>
 
-     <main>
+    <main>
 
-         <?php
-         include("path/to/show_news.php");
-         ?>
-     </main>
+        <!--Main layout-->
+        <div class="container">
+            <div class="row">
+
+                <!--Main column-->
+                <div class="col-lg-8">
+                    <?php
+                    include("path/to/show_news.php");
+                    ?>
+
+                    <!--Pagination-->
+                    <nav class="text-xs-center">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--/.Pagination-->
+
+                    <hr>
+
+                </div>
+
+                <!--Sidebar-->
+                <div class="col-lg-4">
+
+                    <div class="widget-wrapper">
+                        <h4>Recent Posts:</h4>
+                        <br>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                            <a href="#" class="list-group-item Written">Recent Post Here</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/.Sidebar-->
+            </div>
+        </div>
+        <!--/.Main layout-->
+
+    </main>
 
     <!--Footer-->
     <footer class="page-footer center-on-small-only primary-color-dark">
