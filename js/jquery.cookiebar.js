@@ -96,7 +96,7 @@
 			}
 			//Sets up privacy policy button if required
 			if(options.policyButton){
-				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy">'+options.policyText+'</a>';
+				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy" target="_blank">'+options.policyText+'</a>';
 			}else{
 				var policyButton = '';
 			}
