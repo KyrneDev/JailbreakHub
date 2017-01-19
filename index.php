@@ -59,7 +59,7 @@
 		    <script src="js/modernizr.custom.js"></script> -->
 
 	<script type="text/javascript"> 
-		$(document).ready(function(){
+		jQuery(document).ready(function($){
 			$.cookieBar();
 		});
 	</script>
