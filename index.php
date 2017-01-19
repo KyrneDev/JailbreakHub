@@ -57,7 +57,7 @@
 		
     <link rel="stylesheet" type="text/css" href="css/loading_effect.css" />
 		    <script src="js/modernizr.custom.js"></script> -->
-
+    <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
 	<script type="text/javascript"> 
 		jQuery(document).ready(function($){
 			$.cookieBar();
@@ -322,7 +322,6 @@
 		<script src="js/loading.js"></script>
 
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
 
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/tether.js"></script>
