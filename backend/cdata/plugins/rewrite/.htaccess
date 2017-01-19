@@ -1,6 +1,0 @@
-Order Deny,Allow
-Deny From All
-<Files ~ "cn_friendly_url\.php$">
-Order Deny,Allow
-allow from all
-</Files>

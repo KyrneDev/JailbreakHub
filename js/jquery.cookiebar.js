@@ -1,18 +1,3 @@
-/*
- * Copyright (C) 2012 PrimeBox
- * 
- * This work is licensed under the Creative Commons
- * Attribution 3.0 Unported License. To view a copy
- * of this license, visit
- * http://creativecommons.org/licenses/by/3.0/.
- * 
- * Documentation available at:
- * http://www.primebox.co.uk/projects/cookie-bar/
- * 
- * When using this software you use it at your own risk. We hold
- * no responsibility for any damage caused by using this plugin
- * or the documentation provided.
- */
 (function($){
 	$.cookieBar = function(options,val){
 		if(options=='cookies'){
@@ -30,9 +15,9 @@
 			declineButton: false, //Set to true to show decline/disable button
 			declineText: 'Disable Cookies', //Text on decline/disable button
 			declineFunction: function(cookieValue){if(cookieValue=='enabled' || cookieValue=='accepted') window.location = window.location.href;}, //Function to run after decline
-			policyButton: false, //Set to true to show Privacy Policy button
-			policyText: 'Privacy Policy', //Text on Privacy Policy button
-			policyURL: '/privacy-policy/', //URL of Privacy Policy
+			policyButton: true, //Set to true to show Privacy Policy button
+			policyText: 'Cookies Policy', //Text on Privacy Policy button
+			policyURL: '/cookies.html', //URL of Privacy Policy
 			autoEnable: true, //Set to true for cookies to be accepted automatically. Banner still shows
 			acceptOnContinue: false, //Set to true to accept cookies when visitor moves to another page
 			acceptOnScroll: false, //Set to true to accept cookies when visitor scrolls X pixels up or down
