@@ -14,6 +14,8 @@
 	(function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
 	arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
 	</script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.cookiebar.css" />
+	<script type="text/javascript" src="js/jquery.cookiebar.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -56,7 +58,11 @@
     <link rel="stylesheet" type="text/css" href="css/loading_effect.css" />
 		    <script src="js/modernizr.custom.js"></script> -->
 
-
+	<script type="text/javascript"> 
+		$(document).ready(function(){
+			$.cookieBar();
+		});
+	</script>
     <!-- Template styles -->
     <style rel="stylesheet">
         
