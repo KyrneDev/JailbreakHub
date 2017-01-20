@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    flex: 1;
+}
+
+.widget-wrapper {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h0 {
+    color: #FF6961
+}
+
+h00 {
+    color: #EFDECD
+}
+
+h000 {
+    color: #98FF98
+}
+
+h0000 {
+    color: #C9A0DC
+}
+
+h00000 {
+    color: #708090
+}
+
+h000000 {
+    color: #FFD1DC
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.widget-wrapper {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+}
