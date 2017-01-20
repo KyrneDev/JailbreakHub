@@ -9,6 +9,7 @@
                     <div class="col-md-3 offset-lg-1 hidden-lg-down">
                         <h5 class="title">Jailbreak Hub</h5>
                         <p>JailbreakHub is a website for all jailbreak related content on iPhone, iPod, and iPad</p>
+                         <p>We post informative and educational content on our Social Medias and Website.</p>
                     </div>
 
                     <!--First column-->
@@ -19,42 +20,42 @@
 
                     <!--Second column-->
                     <div class="col-lg-2 col-md-4 offset-lg-1">
-                        <h5 class="title">First column</h5>
-                        <ul>
-                            <li><a class="lihover" href="#!">Link 1</a></li>
-                            <li><a class="lihover" href="#!">Link 2</a></li>
-                            <li><a class="lihover" href="#!">Link 3</a></li>
-                            <li><a class="lihover" href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
+                    <h5 class="title">Find us on the web!</h5>
+                    <ul>
+                        <li><a class="lihover" href="https://twitter.com/jailbreak_hub">Twitter</a></li>
+                        <li><a class="lihover" href="https://www.facebook.com/Jailbreak-Hub-211944112602210/">Facebook</a></li>
+                        <li><a class="lihover" href="https://www.youtube.com/channel/UCxr_GwSVVz15lmTvlncuXjg">YouTube</a></li>
+                        <li><a class="lihover" href="mailto:jailbreakhubcontact@gmail.com">Email</a></li>
+                    </ul>
+                </div>
                     <!--/.Second column-->
 
                     <hr class="hidden-md-up">
 
                     <!--Third column-->
-                    <div class="col-lg-2 col-md-4">
-                        <h5 class="title">Second column</h5>
-                        <ul>
-                            <li><a class="lihover" href="#!">Link 1</a></li>
-                            <li><a class="lihover" href="#!">Link 2</a></li>
-                            <li><a class="lihover" href="#!">Link 3</a></li>
-                            <li><a class="lihover" href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
+                     <div class="col-lg-2 col-md-4">
+                    <h5 class="title">Jailbreak Chats and Communities</h5>
+                    <ul>
+                        <li><a class="lihover" href="https://reddit.com/r/jailbreak">Reddit</a></li>
+                        <li><a class="lihover" href="https://t.me/rjailbreak">Telegram</a></li>
+                        <li><a class="lihover" href="https://discord.gg/8DFezTf">Discord</a></li>
+                        <li><a class="lihover" href="#!"></a></li>
+                    </ul>
+                </div>
                     <!--/.Third column-->
 
                     <hr class="hidden-md-up">
 
                     <!--Fourth column-->
                     <div class="col-lg-2 col-md-4">
-                        <h5 class="title">Third column</h5>
-                        <ul>
-                            <li><a class="lihover" href="#!">Link 1</a></li>
-                            <li><a class="lihover" href="#!">Link 2</a></li>
-                            <li><a class="lihover" href="#!">Link 3</a></li>
-                            <li><a class="lihover" href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
+                    <h5 class="title">Important Links</h5>
+                    <ul>
+                        <li><a class="lihover" href="https://ipsw.me">IPSW.Me</a></li>
+                        <li><a class="lihover" href="#!">Link 2</a></li>
+                        <li><a class="lihover" href="#!">Link 3</a></li>
+                        <li><a class="lihover" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
                     <!--/.Fourth column-->
 
                 </div>
