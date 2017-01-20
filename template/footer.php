@@ -61,10 +61,9 @@
             </div>
             <!--/.Footer Links-->
 
-            <hr>
 
             <!--Call to action-->
-            <div class="call-to-action">
+<!--            <div class="call-to-action">
                 <h4>Title</h4>
                 <ul>
                     <li>
@@ -72,13 +71,17 @@
                     <li><a target="_blank" href="" class="btn btn-danger">Sign up!</a></li>
                     <li><a target="_blank" href="" class="btn btn-default">Learn more</a></li>
                 </ul>
-            </div>
+            </div>-->
             <!--/.Call to action-->
 
             <!--Copyright-->
+
             <div class="footer-copyright">
                 <div class="container-fluid">
-                    ©2017 <a href="copyright.html"> Your Corporation</a>
+                <div style="padding: 0px 5px;float: left;"><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true" data-toggle="tooltip" title="Check out our Facebook!" data-placement="right"></i></a></div>
+                <div style="padding: 0px 5px;float: left;"><a href="#"><i  class="fa fa-twitter fa-lg" aria-hidden="true" data-toggle="tooltip" title="Follow us on twitter!" data-placement="right"></i></a></div>
+                <div style="padding: 0px 5px;float: left;"><a href="#"><i class="fa fa-envelope fa-lg" aria-hidden="true" data-toggle="tooltip" title="Sign up for our mailing list!" data-placement="right"></i></a></div>
+                    ©2017 <a href="copyright.html"> JailbreakHub</a>
 
                 </div>
             </div>
@@ -108,7 +111,9 @@
 
             ga('create', 'UA-90532905-1', 'auto');
             ga('send', 'pageview');
-
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
         </script>
         <!-- test -->
     </body>
