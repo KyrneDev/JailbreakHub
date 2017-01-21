@@ -60,20 +60,7 @@
 
                 </div>
             </div>
-            <!--/.Footer Links-->
-
-
-            <!--Call to action-->
-<!--            <div class="call-to-action">
-                <h4>Title</h4>
-                <ul>
-                    <li>
-                        <h5>Something here</h5></li>
-                    <li><a target="_blank" href="" class="btn btn-danger">Sign up!</a></li>
-                    <li><a target="_blank" href="" class="btn btn-default">Learn more</a></li>
-                </ul>
-            </div>-->
-            <!--/.Call to action-->
+            <!--/.Used to be footer links. Nothing to see here.-->
 
             <!--Copyright-->
 
