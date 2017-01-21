@@ -73,5 +73,5 @@ include("./template/head.php")
             <!--/.Main layout-->
 
 <?php
-include("template/footer.php")
+include($_SERVER['DOCUMENT_ROOT']."/template/footer.php");
 ?>
